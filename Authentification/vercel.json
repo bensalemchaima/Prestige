@@ -2,9 +2,9 @@
    "version": 2,
    "name": "prestige",
    "builds": [
-      { "src": "App.tsx", "use": "@vercel/node" }
+      { "src": "index.js", "use": "@vercel/node" }
    ],
    "routes": [
-      { "src": "/(.*)", "dest": "/App.tsx" }
+      { "src": "/(.*)", "dest": "/index.js" }
    ]
 }
